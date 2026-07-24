@@ -2,8 +2,7 @@ import os
 import streamlit as st
 import pandas as pd
 from sqlalchemy import create_engine, Column, Integer, String
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import declarative_base, sessionmaker
 
 st.set_page_config(page_title="Sistema de Inventario", layout="wide")
 
